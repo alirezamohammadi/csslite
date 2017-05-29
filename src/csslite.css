@@ -3,9 +3,6 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.col {
-    background-color: white;
-}
 .col-1 {
     width: 8.33%;
 }
