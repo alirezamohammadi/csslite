@@ -1,0 +1,9 @@
+body{
+    direction: rtl;
+    background-color: lightcoral;
+}
+
+.header{
+    background-color: #3399ff;
+    color: white;
+}
