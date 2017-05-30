@@ -1,3 +1,41 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 576px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 540px;
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 720px;
+        max-width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 960px;
+        max-width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 1140px;
+        max-width: 100%;
+    }
+}
 .row {
     display: flex;
     flex-direction: row;
@@ -105,19 +143,8 @@
 .col-offset-11 {
     margin-right: 91.667%;
 }
-@media only screen and (max-width: 768px) {
-    .col-1,
-    .col-2,
-    .col-3,
-    .col-4,
-    .col-5,
-    .col-6,
-    .col-7,
-    .col-8,
-    .col-9,
-    .col-10,
-    .col-11,
-    .col-12 {
+@media(max-width: 768px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
         width: 100%;
     }
     .col-offset-1,
